@@ -11,4 +11,12 @@ public class ManagerStaticAttribute {
 	public static String dataUrl="http://localhost:8080/data/data";
 	public static String buyerUrl="http://localhost:8080/buyer";
 	public static String sellerUrl="http://localhost:8080/seller";
+	
+	public static String testBuyerUrl="http://localhost:8080/buyer";
+	public static String testBuyerUrlMain=testBuyerUrl+"/test_main" ;
+	public static String testBuyerUrlLogin=testBuyerUrl+"/test_login" ;
+	public static String testBuyerUrlSearchId = testBuyerUrl+"/test_search_idpw" ;
+	public static String testBuyerUrlSearchPw = testBuyerUrl+"/test_search_idpw" ;
+	public static String testBuyerUrlAccount = testBuyerUrl+"/test_account" ;
+	public static String testBuyerUrlShowProduct = testBuyerUrl+"/test_showproduct" ;
 }

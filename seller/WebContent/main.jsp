@@ -167,7 +167,7 @@ function order_comment_show(input){
 					for(int i = 0 ; i < product_list.size() ; i ++){
 						%>
 							<div style="float:left;margin-top:10px;">
-								<a target="_blank" href="<%=ManagerStaticAttribute.buyerUrl %>/showproduct?product_num=<%=product_list.get(i).getProduct_num()%>">
+								<a target="_blank" href="<%=ManagerStaticAttribute.testBuyerUrl %>/test_showproduct?focus=<%=product_list.get(i).getProduct_num()%>">
 									<span class="product_num_span"style="margin-left:30px;z-index:2">
 										<%=product_list.get(i).getProduct_num() %>
 									</span>
@@ -380,7 +380,7 @@ function order_comment_show(input){
 										<div style="width:100px;height:15px;overflow:hidden;"><%=product_list.get(i).getCategori() %></div>
 									</td>
 									<td style="border:1px white solid;text-align:center;">
-										<div style="width:200px;height:15px;overflow:hidden;"><a title="상품 페이지 바로가기"style="color:black;text-decoration:underline;"target="_blank" href="<%=ManagerStaticAttribute.buyerUrl %>/showproduct?product_num=<%=product_list.get(i).getProduct_num()%>"><%=product_list.get(i).getTitle() %></a></div>
+										<div style="width:200px;height:15px;overflow:hidden;"><a title="상품 페이지 바로가기"style="color:black;text-decoration:underline;"target="_blank" href="<%=ManagerStaticAttribute.testBuyerUrl %>/test_showproduct?focus=<%=product_list.get(i).getProduct_num()%>"><%=product_list.get(i).getTitle() %></a></div>
 									</td>
 									<td style="border:1px white solid;text-align:center;">
 										<div style="width:100px;height:15px;overflow:hidden;"><%=product_list.get(i).getPrice() %></div>
